@@ -2,8 +2,8 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
-from phi.agent import Agent
-from phi.model.groq import Groq
+from phidata.agent import Agent
+from phidata.model.groq import Groq
 
 
 load_dotenv()
